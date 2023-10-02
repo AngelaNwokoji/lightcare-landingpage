@@ -523,17 +523,18 @@ opacity: 50%;
   }
   .products{
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
   
   }
   .product{
-    width: 125%;
+    width: 80%;
     line-height: 1;
   }
 
   .product img{
     height: 180px;
   }
-  
+               
   .process img {
     width: 200px;
     height: 250px;
@@ -573,7 +574,7 @@ opacity: 50%;
  
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 500px) {
   
   .container {
 
@@ -625,7 +626,8 @@ opacity: 50%;
   }
  
   .products{
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, fr);
   }
   .product{
     width: 60%;
@@ -656,14 +658,14 @@ height: 150px;
 
 
 .process img {
-  width:130px;
+  width:100px;
   height:200px;
 }
 .process h3{
-  width: 130px;
+  width: 120px;
   height:200px;  
   font-size:  0.9rem;
-  padding: 20px;
+  padding: 10px;
 
 }
 .process p{
