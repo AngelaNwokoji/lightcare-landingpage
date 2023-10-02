@@ -512,13 +512,22 @@ opacity: 50%;
     font-size: 1.25rem;
   }
 
+  .aboutimage img{
+    width: 300px;
+    height: 400px;  
+  }
+
+  .rightdiv{
+    margin-left: -80px;
+    padding: 10px;
+  }
   .products{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+  
   }
   .product{
-    width: 90%;
-    line-height: 0.7;
+    width: 125%;
+    line-height: 1;
   }
 
   .product img{
@@ -526,13 +535,13 @@ opacity: 50%;
   }
   
   .process img {
-    width: 250px;
+    width: 200px;
     height: 250px;
   }
   .process h3{
-    width: 200px;
+    width: 150px;
     height: 250px;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     padding: 25px;
     
   }
@@ -542,7 +551,8 @@ opacity: 50%;
   }
 
   .process a{
-    font-size: 0.8rem;    
+    font-size: 0.8rem; 
+    padding: 5px;   
   }
 
   .contact{
@@ -613,13 +623,12 @@ opacity: 50%;
     padding: 5px;
     font-size: 1em;
   }
-  
-  .product .gold{
-    margin-left:0
+ 
+  .products{
+    justify-content: center;
   }
-
   .product{
-    width: 80%;
+    width: 60%;
     line-height: 0.9;
 }
 .product img{
@@ -639,20 +648,22 @@ height: 150px;
  padding: 5px;
 }
 
+.star{
+  font-size: 20px; 
+  margin: 1px;
+  color: #331e36;
+}
 
 
-.treatmentcontainer div{
-  margin-right: 0;
-  }
 .process img {
   width:130px;
   height:200px;
 }
 .process h3{
-  width: 150px;
+  width: 130px;
   height:200px;  
-  font-size:  1rem;
-  padding: 30px;
+  font-size:  0.9rem;
+  padding: 20px;
 
 }
 .process p{
@@ -661,7 +672,7 @@ height: 150px;
   
 }
 .process a{
-  padding: 3px;
+  padding: 2px;
   font-size: 0.8rem;
   
 }
@@ -675,7 +686,7 @@ height: 150px;
    
     color: #331e36;
     max-width: 100%;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     line-height: 1.5;
   
   }
@@ -687,8 +698,11 @@ height: 150px;
   .lightcare{
   width:100%;
   padding: 0;
+  font-size: 2rem;
   }
-  
+  .lightcare p{
+    font-size: 1.3rem;
+  }
   
   .contact-info {
     display: block;
